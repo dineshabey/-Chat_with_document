@@ -64,7 +64,10 @@ def get_user_input(user_question):
 
 def main():
     st.set_page_config("DocChat")
-    st.header("DocChat - Chat with multiple documents")
+    # Define Streamlit app layout
+    st.markdown("<h3 style='color: orange;'>🧾 DocChat - Chat with multiple documents</h3>", unsafe_allow_html=True)
+    st.caption("🚀 Chat bot developed By :- [Dinesh Abeysinghe](https://www.linkedin.com/in/dinesh-abeysinghe-bb773293) | [GitHub Source Code](https://github.com/dineshabey/AI-TypeTalkChat.git) | [About model](https://arxiv.org/abs/2004.13637) ")
+    st.markdown("<div style= 'text-align: center;'>First need to upload PDF file or Excel file. Then you can start chat with document related things <span style='color: orange;'>Please click like button</span>❤️ and support me and enjoy it.</div>", unsafe_allow_html=True)
     st.write("---")
     with st.container():
         with st.sidebar:
